@@ -10,7 +10,7 @@ def find_bst(cur, val):
         return cur
     if val < cur.val:
         return {{gap}}
-    return {{gap}}
+    return find_bst(cur.right, val)
 
 root = TreeNode(18)
 root.left = TreeNode(7)
