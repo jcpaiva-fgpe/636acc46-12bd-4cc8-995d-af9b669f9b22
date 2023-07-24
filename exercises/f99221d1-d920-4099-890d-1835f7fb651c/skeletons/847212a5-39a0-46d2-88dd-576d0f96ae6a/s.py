@@ -13,8 +13,8 @@ def closest_color(r, g, b):
     best = "Black"
     best_dist = {{gap}}
     for cl in colors:
-        dist = {{gap}}
-        if dist < best_dist: {{gap}}
+        dist = calc_dist(cl, r, g, b)
+        if dist < best_dist: best = cl
     return best
 
 print (closest_color(255, 165, 0)) # orange
