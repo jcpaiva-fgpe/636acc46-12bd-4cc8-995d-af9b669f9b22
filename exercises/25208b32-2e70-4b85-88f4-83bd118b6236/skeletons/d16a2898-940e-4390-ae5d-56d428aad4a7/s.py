@@ -1,8 +1,23 @@
-currencies = {'USD':1.0, 'EUR':0.892, 'JPY':138.8, 'GBP':1.309, 'CHF':0.862,
-              'CAD':1.322, 'AUD':1.462 }
+class TreeNode:
+    left = None
+    right = None
+    def __init__(self, val):
+        self.val = val
+        
+    
+def find_bst(cur, val):
+    if not cur or val == cur.val:
+        return cur
+    if val < cur.val:
+        return {{gap}}
+    return {{gap}}
 
-def convert(usd):
-    for cur in currencies:
-        print(cur, f"{{gap}}")
+root = TreeNode(18)
+root.left = TreeNode(7)
+root.right = TreeNode(27)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(15)
+print(find_bst(root, 4).val)
 
-convert(124)
+# exp output
+# 4
