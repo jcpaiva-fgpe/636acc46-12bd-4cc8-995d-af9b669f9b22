@@ -1,1 +1,1 @@
-{"id":"51ac1b31-2640-4479-8cbf-60fccc8fec8e","arguments":[],"weight":"1","visible":false,"input":"in.txt","output":"out.txt","timeout":0,"feedback":[]}
+{"id":"51ac1b31-2640-4479-8cbf-60fccc8fec8e","arguments":[],"weight":"1","visible":"false","input":"in.txt","output":"out.txt","timeout":"0","feedback":[]}
