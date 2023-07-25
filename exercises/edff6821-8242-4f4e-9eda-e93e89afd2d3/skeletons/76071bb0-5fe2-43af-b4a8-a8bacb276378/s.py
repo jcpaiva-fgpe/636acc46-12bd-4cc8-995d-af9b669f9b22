@@ -9,3 +9,6 @@ def anonymize(text):
     return " ".join(words)
 
 print (anonymize(text))
+
+# exp output
+# ??? ??? met ??? ??? ??? in Paris in May.
