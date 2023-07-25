@@ -10,3 +10,6 @@ def impute(data):
         
 impute(data)
 print(data)
+
+# exp output
+# [[1, 7, 2, 3.75, 3.75, 5], [3, 3, 5, 4.0, 1, 8], [2, 4, 4.8, 5, 7, 6]]
